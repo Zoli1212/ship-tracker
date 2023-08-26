@@ -1,8 +1,6 @@
 import { createApi, fetchBaseQuery } from '@reduxjs/toolkit/query/react';
 import { Ship, ShipResponse } from '../interfaces/interface';
 
-
-
 export const shipsApi = createApi({
   reducerPath: 'shipsApi',
   baseQuery: fetchBaseQuery({ baseUrl: '/' }),

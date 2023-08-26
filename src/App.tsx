@@ -13,7 +13,6 @@ function App() {
 
   const [ filteredShips, setFilteredShips] = useState<Ship []>([])
 
-
   return (
     <Provider store={store}>
       <Nav setFilteredShips={setFilteredShips}/>
