@@ -1,7 +1,7 @@
 Ship Tracker App
 first step:
 install npm i
-then run npm run
+then run: npm start
 
 used technologies:
 redux
