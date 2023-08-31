@@ -3,7 +3,7 @@ import { render, waitFor } from '@testing-library/react';
 import { useSelector } from 'react-redux';
 import ShipList from '../ship/ShipList';
 
-jest.mock('react-redux'); // Mock the react-redux library
+jest.mock('react-redux'); 
 
 describe('ShipList component', () => {
   const mockShips = [
